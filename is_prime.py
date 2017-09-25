@@ -1,9 +1,11 @@
+# This is a simple program that determines if a
+# number is prime or not.
 def is_prime(x):
-    n=int(x)
+    n=int(x)         #converts the input number to int
     a=2
-    if n<=1:
+    if n<=1:         #All numbers less than or equal to 1 are not prime
         return False
-    elif n==2:
+    elif n==2:       # 2 not prime
         return True
     else:
         while a in range(2,n-1):
